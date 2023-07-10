@@ -81,8 +81,6 @@ class MessageAdapter(private val messageList: List<Message>) :
                             }
                         }, (100 * (index + 1)).toLong())
                     }
-
-
                     leftChatTimestamp?.text = message.timestamp
                 }
             }
